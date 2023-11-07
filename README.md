@@ -22,7 +22,7 @@
 [Ссылка на решение в Google Colab](https://colab.research.google.com/drive/1TW0hTOlcpjV2A0rYrGRcqyb04dckylfr?usp=sharing)
 
 
-[Модель Zero-DCE](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/ZERO-DCE.png)
+![Модель Zero-DCE](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/ZERO-DCE.png)
 
 
 ## Результаты:
@@ -30,9 +30,10 @@
 Тёмное изображение:
 [low_light_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/low_img.png)
 Результат модели:
-[model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Model_img.png)
+![model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Model_img.png)
 Реальное светлое изображение:
-[model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Real_high_img.png)
+![model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Real_high_img.png)
+
 |PSNR(🠕)|SSIM(🠕)|LPIPS(🠗)|
 |:---:|:---:|:---:
 15.83|0.61|0.23
