@@ -26,14 +26,19 @@
 
 
 ## Результаты:
-* Пример работы на изображении:
-Тёмное изображение:
-[low_light_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/low_img.png)
-Результат модели:
+Пример работы на изображении:
+* Тёмное изображение:
+  
+![low_light_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/low_img.png)
+* Результат модели:
+  
 ![model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Model_img.png)
-Реальное светлое изображение:
+* Реальное светлое изображение:
+  
 ![model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Real_high_img.png)
 
+* Полученные метрики:
+  
 |PSNR(🠕)|SSIM(🠕)|LPIPS(🠗)|
 |:---:|:---:|:---:
 15.83|0.61|0.23
