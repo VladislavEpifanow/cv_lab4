@@ -14,12 +14,25 @@
 * [SSIM](https://ru.wikipedia.org/wiki/SSIM) - Индекс структурного сходства;
 * [LPIPS](https://github.com/richzhang/PerceptualSimilarity#c-about-the-metric) - Learned Perceptual Image Patch Similarity.  
 
-## Результаты
-* Выбранная модель - Zero DCE. основанная на Cверточных слоях и оптимизации кривых.
+## Выбранная модель
+* Выбранная модель - Zero DCE. основанная на Cверточных слоях и оптимизации кривых при помощи 4х loss-ов.
 * batch_size = 16, 200 эпох, обучение с помощью оптимизатора Adam
-* 
+* Для обучения модели не требуются светлые изображения
 
-Результаты:
+[Ссылка на решение в Google Colab](https://colab.research.google.com/drive/1TW0hTOlcpjV2A0rYrGRcqyb04dckylfr?usp=sharing)
+
+
+[Модель Zero-DCE](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/ZERO-DCE.png)
+
+
+## Результаты:
+* Пример работы на изображении:
+Тёмное изображение:
+[low_light_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/low_img.png)
+Результат модели:
+[model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Model_img.png)
+Реальное светлое изображение:
+[model_img](https://github.com/VladislavEpifanow/cv_lab4/blob/main/results-example/Real_high_img.png)
 |PSNR(🠕)|SSIM(🠕)|LPIPS(🠗)|
 |:---:|:---:|:---:
 15.83|0.61|0.23
